@@ -1,0 +1,24 @@
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+.border {
+    display: flex;
+    width: calc(100% - 3rem);
+    height: calc(100% - 3rem);
+    border: 0.5rem solid white;
+    border-radius: 2rem;
+    margin: 1rem;
+
+    align-items: center;
+    justify-content: center;
+}
+
+.middleText {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+}
