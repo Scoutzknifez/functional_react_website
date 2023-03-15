@@ -67,7 +67,7 @@ export const WindowResizingPage = () => {
         <div className={styles.background}>
             <div className={styles.border}>
                 {/* TODO FIX THIS */}
-                <div className={styles.backButton} onClick={() => navigate(AppRoute.Home.fullPath)}>
+                <div className={styles.backButton} onClick={() => navigate(AppRoute.Landing.fullPath)}>
                     <svg className={styles.backArrow} xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50" width={50} height={50}>
                         <path d="M10 25 L30 5 L30 15 L45 15 L45 35 L30 35 L30 45 Z" />{' '}
                     </svg>

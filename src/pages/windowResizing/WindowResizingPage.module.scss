@@ -43,4 +43,8 @@
 
 .backArrow {
     fill: white;
+
+    :hover {
+        fill: gray;
+    }
 }
